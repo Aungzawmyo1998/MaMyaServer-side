@@ -1,0 +1,22 @@
+npm init -y
+npm install 
+npm i express 
+npm i body-parser /(to seceive json data  from server)
+
+npm install -g nodemon
+npm install nodemon
+
+npm install sequelize sequelize-cli mysql2
+npx sequelize-cli init
+npx sequelize-cli model:generate --name Student --attributes name:string,email:string
+
+
+npx sequelize-cli migration:generate --name add-status-in-products-table
+
+npx sequelize-cli db:migrate
+
+
+
+npm i bcryptjs
+
+npm i jsonwebtoken
